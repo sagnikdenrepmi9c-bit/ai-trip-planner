@@ -13,16 +13,15 @@ export default {
       },
     },
     fontFamily: {
-      display: ['Playfair Display', 'serif'],
-      body: ['DM Sans', 'sans-serif'],
+      display: ['Plus Jakarta Sans', 'sans-serif'],
+      body: ['Inter', 'sans-serif'],
     },
     extend: {
       colors: {
         travel: {
-          orange: "hsl(17 88% 55%)",
-          teal: "hsl(174 62% 41%)",
-          gold: "hsl(35 95% 55%)",
-          cream: "hsl(40 33% 98%)",
+          orange: "hsl(24 95% 53%)",
+          blue: "hsl(220 70% 50%)",
+          lightgray: "hsl(220 20% 97%)",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -75,20 +74,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
